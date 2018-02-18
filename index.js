@@ -54,7 +54,7 @@ function total() {
     var nameOfItem = keys[0];
     var cost = cart[i][nameOfItem];
 
-    totalCost = totalCost = cost;
+    totalCost = totalCost + cost;
   }
   console.log(totalCost);
 }
