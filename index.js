@@ -56,7 +56,7 @@ function total() {
 
     totalCost = totalCost + cost;
   }
-  console.log(totalCost);
+  console.log(parseInt(totalCost));
 }
 
 function removeFromCart(item) {
