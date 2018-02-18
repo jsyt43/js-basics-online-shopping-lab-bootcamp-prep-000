@@ -46,7 +46,6 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
   var totalCost = 0;
 
   for (let i = 0; i < cart.length; i++) {
