@@ -64,8 +64,10 @@ function removeFromCart(item) {
     var keys = Object.keys(cart[i]);
     var nameOfItem = keys[0];
 
+    
+
     if (item === nameOfItem) {
-      cart.splice(i);
+      Object.assign({}, cart, delete cart[i]);
       return cart;
     } else {
       console.log('That item is not in your cart.');
