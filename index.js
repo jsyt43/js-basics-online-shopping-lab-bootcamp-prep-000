@@ -64,8 +64,6 @@ function removeFromCart(item) {
     var keys = Object.keys(cart[i]);
     var nameOfItem = keys[0];
 
-
-
     if (item === nameOfItem) {
       Object.assign({}, cart, delete cart[i]);
       return cart;
