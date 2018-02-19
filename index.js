@@ -60,7 +60,6 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
   for (let i = 0; i < cart.length; i++) {
     var keys = Object.keys(cart[i]);
     var nameOfItem = keys[0];
