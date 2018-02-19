@@ -67,6 +67,8 @@ function removeFromCart(item) {
 
     if (item === nameOfItem) {
       cart.shift(item);
+    } else {
+      console.log('That item is not in your cart.');
     }
   }
 }
