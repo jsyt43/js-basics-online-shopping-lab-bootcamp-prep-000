@@ -66,11 +66,11 @@ function removeFromCart(item) {
 
     if (item === nameOfItem) {
       cart.shift(item);
+      return cart;
     } else {
       console.log('That item is not in your cart.');
     }
   }
-  return cart;
 }
 
 function placeOrder(cardNumber) {
